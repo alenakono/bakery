@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './_header.scss';
+@import './top.scss';
+@import './about.scss';
+@import './bakery';
+@import './shop';
+@import './principles';
+@import './values';
+@import './insta';
+@import './join';
+@import './footer';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #F5EDE7;
+    font-family: Roboto;
+    font-size: 18px;
+    color: black;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.title {
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 73px;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    min-height: 58px;
+    width: auto;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0.2;
+    transition: background-color 0.3s ease 0s;
+
+    &:hover {
+        background-color: #ffff;
+    }
+
+    @media (max-width:600px) {
+        font-size: 17px;
+        margin: 0 auto;
+    }
+}
+.blue-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 73px;
+    border-radius: 35px;
+    min-height: 58px;
+    font-size: 22px;
+    line-height: 34px;
+    transition: background-color 0.3s ease 0s;
+    color: #0126DE;
+    border: 1px solid #0126DE;
+
+    &:hover {
+        background-color: #0126DE;
+        color: #ffff;
+    }
+
+    @media (max-width:600px) {
+        font-size: 17px;
+
+    }
+
+}
+
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.content {
+    padding: 100px 10px;
+
+    @media (max-width:767px) {
+        padding: 70px 10px
+    }
+}
+main {
+    flex: 1 1 auto;
+    margin-top: 80px;
+
+    @media (max-width:767px) {
+        margin-top: 60px;
+    }
+}
+.tarla-image {
+    margin: 0 -16px;
+    margin: 0 auto;
+    max-width: 1440px;
+
+    img {
+        width: 100%;
+    }
+
+}

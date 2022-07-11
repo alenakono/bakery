@@ -1,0 +1,45 @@
+.join {
+    text-align: center;
+    padding: 17px 0 32px 0;
+    margin: 0 auto;
+
+    @media (max-width:1300px) {
+        width: 100%;
+    }
+}
+.join__title {
+    font-size: 50px;
+    line-height: 72px;
+    text-transform: uppercase;
+
+    @media (max-width:700px) {
+        font-size: 30px;
+    }
+}
+
+.join__text {
+    font-size: 31px;
+    margin-top: 14px;
+    margin-bottom: 24px;
+
+    @media (max-width:700px) {
+        font-size: 25px;
+    }
+}
+
+.join__button {
+    display: inline-flex;
+    padding: 7px 139px;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    transition: background-color 0.3s ease 0s;
+
+    &:hover {
+        background-color: white;
+    }
+
+    @media (max-width:700px) {
+        padding: 7px 20px;
+    }
+}

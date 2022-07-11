@@ -1,0 +1,49 @@
+.bakery {
+    display: flex;
+    padding: 72px 47px 0 16px;
+    align-items: center;
+
+    @media (max-width:600px) {
+        padding: 5px 5px;
+    }
+    @media (max-width:1070px) {
+        display: block;
+        padding: 32px 10px;
+        text-align: center;
+    
+    
+    }
+}
+
+.bakery__img {
+    flex: 0 1 50%;
+
+    img {
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    @media (max-width:1070px) {
+        margin: 0 auto;
+    }
+        
+}
+
+.bakery-info {
+    flex: 1 1 45%;
+    font-size: 40px;
+    line-height: 56px;
+    padding: 100px 47px;
+
+    a {
+        margin-top: 28px;
+
+    }
+
+    @media (max-width:600px) {
+        padding: 20px 10px;
+        font-size: 25px;
+
+    }
+}
+

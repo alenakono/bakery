@@ -1,0 +1,28 @@
+.insta {
+    background-color: #ffff;
+    border-top: 1px solid black;
+    margin: 0 auto;
+
+    .insta__titles {
+        font-size: 43px;
+        line-height: 60px;
+        padding: 65px 0;
+        text-align: center;
+
+    }
+
+    .insta-images {
+        padding: 15px 0 65px 0;
+        display: flex;
+        overflow: hidden;
+
+    }
+
+    .insta-images__img {
+        flex-shrink: 0;
+        margin-right: 24px;
+        max-width: 336px;
+        border-radius: 20px;
+
+    }
+}
