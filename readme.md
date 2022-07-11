@@ -1,7 +1,7 @@
 
-###Лендинг страница для магазина выпечки TARLA bakery
+**Лендинг страница для магазина выпечки TARLA bakery**
 
-###[Tarla bakery](https://alenakono.github.io/bakery/)
+[Tarla bakery](https://alenakono.github.io/bakery/)
 
 
 
